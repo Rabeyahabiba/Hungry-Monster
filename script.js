@@ -79,8 +79,7 @@ const mealRecipeModal = meal => {
             <h4>${meal.strMeasure12} ${meal.strIngredient12}</h4>
             <h4>${meal.strMeasure13} ${meal.strIngredient13}</h4>
             <h4>${meal.strMeasure14} ${meal.strIngredient14}</h4>
-            <h4>${meal.strMeasure15} ${meal.strIngredient15}</h4>
-            
+            <h4>${meal.strMeasure15} ${meal.strIngredient15}</h4>            
         </div>       
    `;
     mealDetailsContent.innerHTML = html;
