@@ -1,7 +1,7 @@
 const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
 const mealDetailsContent = document.querySelector('.meal-details-content');
-const recipeCloseBtn = document.getElementById('recipe-close-btn');
+const recipeCloseBtn = document.getElementById('ingredient-close-btn');
 
 
 // event listeners
@@ -59,10 +59,10 @@ function getMealRecipe(recipe) {
 const mealRecipeModal = meal => {
     meal = meal[0];
     let html = `
-         <div class = "recipe-meal-img">
+         <div class = "ingredient-meal-img">
            <img src = "${meal.strMealThumb}" alt = "">
          </div> 
-        <h1 class = "recipe-title">${meal.strMeal}</h1>        
+        <h1 class = "food-title">${meal.strMeal}</h1>        
         <div>
         <h2>Ingredients</h2>                       
             <h4>${meal.strMeasure1} ${meal.strIngredient1}</h4>  
