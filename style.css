@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --tenne-tawny: #d65108;
-    --tenne-tawny-dark: #b54507;
+    --tenne-tawny: #3fb968;
+    --tenne-tawny-dark: #df6130;
 }
 body{
     font-weight: 300;
@@ -97,7 +97,7 @@ body{
 .meal-name h3{
     font-size: 1.4rem;
 }
-.recipe-btn{
+.ingredient-btn{
     text-decoration: none;
     color: #fff;
     background: var(--tenne-tawny);
@@ -110,7 +110,7 @@ body{
     border-radius: 2rem;   
     transition: all 0.4s linear;
 }
-.recipe-btn:hover{
+.ingredient-btn:hover{
     background: var(--tenne-tawny-dark);
 }
 .meal-details{
@@ -134,7 +134,7 @@ body{
     background: #f0f0f0;
     border-radius: 2rem;
 }
-.showRecipe{
+.showIngredient{
     display: block;
 }
 
@@ -161,7 +161,7 @@ body{
 }
 .recipe-title{
     letter-spacing: 1px;
-    padding-bottom: 1rem;
+    
 }
 .recipe-category{
     background: #fff;
