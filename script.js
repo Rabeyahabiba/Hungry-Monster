@@ -59,29 +59,28 @@ function getMealRecipe(recipe) {
 const mealRecipeModal = meal => {
     meal = meal[0];
     let html = `
-        <h2 class = "recipe-title">${meal.strMeal}</h2>
-        <p class = "recipe-category">${meal.strCategory}</p>
+         <div class = "recipe-meal-img">
+           <img src = "${meal.strMealThumb}" alt = "">
+         </div> 
+        <h1 class = "recipe-title">${meal.strMeal}</h1>        
         <div>
-         <h2>Ingredients:</h2>                       
-            <h5>${meal.strIngredient1}</h5>
-            <h5>${meal.strIngredient2}</h5>
-            <h5>${meal.strIngredient3}</h5>
-            <h5>${meal.strIngredient4}</h5>
-            <h5>${meal.strIngredient5}</h5>
-            <h5>${meal.strIngredient6}</h5>
-            <h5>${meal.strIngredient7}</h5>
-            <h5>${meal.strIngredient8}</h5>
-            <h5>${meal.strIngredient9}</h5>
-            <h5>${meal.strIngredient10}</h5>
-            <h5>${meal.strIngredient11}</h5>
-            <h5>${meal.strIngredient12}</h5>
-            <h5>${meal.strIngredient13}</h5>
-            <h5>${meal.strIngredient14}</h5>
-            <h5>${meal.strIngredient15}</h5>
-        </div>
-        <div class = "recipe-meal-img">
-          <img src = "${meal.strMealThumb}" alt = "">
-        </div>  
+         <h2>Ingredients</h2>                       
+            <h4>${meal.strIngredient1}</h4>
+            <h4>${meal.strIngredient2}</h4>
+            <h4>${meal.strIngredient3}</h4>
+            <h4>${meal.strIngredient4}</h4>
+            <h4>${meal.strIngredient5}</h4>
+            <h4>${meal.strIngredient6}</h4>
+            <h4>${meal.strIngredient7}</h4>
+            <h4>${meal.strIngredient8}</h4>
+            <h4>${meal.strIngredient9}</h4>
+            <h4>${meal.strIngredient10}</h4>
+            <h4>${meal.strIngredient11}</h4>
+            <h4>${meal.strIngredient12}</h4>
+            <h4>${meal.strIngredient13}</h4>
+            <h4>${meal.strIngredient14}</h4>
+            <h4>${meal.strIngredient15}</h4>
+        </div>       
    `;
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showIngredient');
