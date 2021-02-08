@@ -64,7 +64,7 @@ const mealRecipeModal = meal => {
          </div> 
         <h1 class = "recipe-title">${meal.strMeal}</h1>        
         <div>
-         <h2>Ingredients</h2>                       
+        <h2>Ingredients</h2>                       
             <h4>${meal.strMeasure1} ${meal.strIngredient1}</h4>  
             <h4>${meal.strMeasure2} ${meal.strIngredient2}</h4>
             <h4>${meal.strMeasure3} ${meal.strIngredient3}</h4>
