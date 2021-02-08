@@ -39,9 +39,7 @@ function getMealList() {
                 mealList.classList.add('notFound');
             }
             mealList.innerHTML = html;
-
         });
-
 }
 
 
@@ -79,6 +77,7 @@ const mealRecipeModal = meal => {
             <h5>${meal.strIngredient12}</h5>
             <h5>${meal.strIngredient13}</h5>
             <h5>${meal.strIngredient14}</h5>
+            <h5>${meal.strIngredient15}</h5>
         </div>
         <div class = "recipe-meal-img">
           <img src = "${meal.strMealThumb}" alt = "">
