@@ -65,21 +65,22 @@ const mealRecipeModal = meal => {
         <h1 class = "recipe-title">${meal.strMeal}</h1>        
         <div>
          <h2>Ingredients</h2>                       
-            <h4>${meal.strIngredient1}</h4>
-            <h4>${meal.strIngredient2}</h4>
-            <h4>${meal.strIngredient3}</h4>
-            <h4>${meal.strIngredient4}</h4>
-            <h4>${meal.strIngredient5}</h4>
-            <h4>${meal.strIngredient6}</h4>
-            <h4>${meal.strIngredient7}</h4>
-            <h4>${meal.strIngredient8}</h4>
-            <h4>${meal.strIngredient9}</h4>
-            <h4>${meal.strIngredient10}</h4>
-            <h4>${meal.strIngredient11}</h4>
-            <h4>${meal.strIngredient12}</h4>
-            <h4>${meal.strIngredient13}</h4>
-            <h4>${meal.strIngredient14}</h4>
-            <h4>${meal.strIngredient15}</h4>
+            <h4>${meal.strMeasure1} ${meal.strIngredient1}</h4>  
+            <h4>${meal.strMeasure2} ${meal.strIngredient2}</h4>
+            <h4>${meal.strMeasure3} ${meal.strIngredient3}</h4>
+            <h4>${meal.strMeasure4} ${meal.strIngredient4}</h4>
+            <h4>${meal.strMeasure5} ${meal.strIngredient5}</h4>
+            <h4>${meal.strMeasure6} ${meal.strIngredient6}</h4>
+            <h4>${meal.strMeasure7} ${meal.strIngredient7}</h4>
+            <h4>${meal.strMeasure8} ${meal.strIngredient8}</h4>
+            <h4>${meal.strMeasure9} ${meal.strIngredient9}</h4>
+            <h4>${meal.strMeasure10} ${meal.strIngredient10}</h4>
+            <h4>${meal.strMeasure11} ${meal.strIngredient11}</h4>
+            <h4>${meal.strMeasure12} ${meal.strIngredient12}</h4>
+            <h4>${meal.strMeasure13} ${meal.strIngredient13}</h4>
+            <h4>${meal.strMeasure14} ${meal.strIngredient14}</h4>
+            <h4>${meal.strMeasure15} ${meal.strIngredient15}</h4>
+            
         </div>       
    `;
     mealDetailsContent.innerHTML = html;
